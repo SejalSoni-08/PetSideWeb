@@ -1,0 +1,57 @@
+@charset "ISO-8859-1";
+
+/*loginpage*/
+*{
+	padding: 0;
+	margin: 0;
+}
+
+
+
+.log{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	}
+.login{
+	width: 420px;
+	padding: 30px 40px;
+}
+.nmid a{
+border-radius:5px;
+}
+
+.in{
+	height: 50px;
+	position: relative;
+}
+.in input{
+	border: none;
+	outline: none;
+	border: 2px solid goldenrod;
+	border-radius: 40px;
+	background: transparent;
+	padding: 20px 45px 20px 20px;
+}
+/*.in input::placeholder{
+	color: black;
+}*/
+.f::-webkit-input-placeholder{
+	color: black;
+}
+.btn_button{
+	height: 45px;
+	background-color: white;
+	outline: none;
+	border: none;
+	border-radius: 40px;
+	box-shadow: 0 0 10px whitesmoke;
+	cursor: pointer;
+	font-weight: 600;
+	color: black;
+}
+
+
+/*welcomepage*/
+
